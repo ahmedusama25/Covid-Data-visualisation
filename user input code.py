@@ -24,7 +24,9 @@ caseString=x.split("\n")[38].strip()[6:-10]
 caseString=ast.literal_eval(caseString)
 caseString
 plt.plot(caseString,date)
-
+plt.yticks(['Mar 31, 2020', 'Apr 5, 2020', 'May 10, 2020', 'Jun 15, 2020'], [
+           'Mar 31, 2020', 'Apr 5, 2020', 'May 10, 2020', 'Jun 15, 2020'], rotation='horizontal')
+plt.show()
 
  
 
